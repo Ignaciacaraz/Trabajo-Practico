@@ -82,3 +82,57 @@ nav ul li a {
   padding: 10px 30px;
   font-size: 25px;
 }
+
+
+/*ENCUESTAS*/
+
+.titulo{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    COLOR: #1278BF; 
+    text-shadow: 0px 0px 9px #508AD3;
+    padding-top: 11px;
+}
+
+form{
+  border: 10px outset #508bff;
+  border-spacing: 10px;
+  background-color:#87ceeb ;
+}
+
+.option{
+  padding-left: 10px;
+}
+
+
+.enviar{
+
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+background-color: #0066CC;
+padding: 15px 30px;
+border: solid #000000 2px;
+box-shadow: rgb(0, 0, 0) 4px 9px 25px 2px;
+border-radius: 50px;
+transition : 1859ms;
+transform: translateY(0);
+margin: 0 auto;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.enviar:hover{
+transition : 1859ms;
+padding: 10px 78px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: none;
+}
+
+.center{
+  text-align: center;
+}
