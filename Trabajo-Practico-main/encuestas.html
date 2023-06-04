@@ -34,9 +34,9 @@
               <div class="card">
                 <div id="formStatus"></div>
                 <div class="card-body">
-                  <h5 class="card-title">Encuesta 1</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="encuesta1.html" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Encuesta sobre Satisfaccion </h5>
+                  <p class="card-p"> <i> En esta encuesta, intentaremos realizar una autoevaluacion, para reconocer el desempeño y servicio ofrecido a lo largo del tiempo. </i></p>
+                  <a href="encuesta1.html" class=" enviar btn btn-primary">Comenzar</a>
                   <div id="mensaje"></div>
 
                 </div>
@@ -47,9 +47,9 @@
                 
  
                <div class="card-body">
-                  <h5 class="card-title">Encuesta 2</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="encuesta2.html" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Encuesta sobre Marketing</h5>
+                  <p class="card-p"> <i> En esta encuesta, le realizaremos preguntas especificas del area de Marketing, queremos saber su opinion acerca de los proyectos. </i> </p>
+                  <a href="encuesta2.html" class=" enviar btn btn-primary">Comenzar</a>
                   <div id="mensaje2"></div>
 
 
@@ -60,9 +60,9 @@
               <div class="card">
 
                 <div class="card-body">
-                  <h5 class="card-title">Encuesta 3</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="encuesta3.html" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Encuesta sobre Servicio</h5>
+                  <p class="card-p"> <i> En esta encuesta, le consultaremos acerca de su opinion al respecto del servicio brindado dentro de la organizacion. </i> </p>
+                  <a href="encuesta3.html" class=" enviar btn btn-primary">Comenzar</a>
                   <div id="mensaje3"></div>
 
                 </div>
@@ -71,9 +71,9 @@
             <div class="cuar">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Encuesta 4</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="encuesta4.html" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Encuesta sobre Entorno Laboral</h5>
+                  <p class="card-p"> <i> En esta encuesta, le consultaremos sobre su experiencia dentro del ambiente de trabajo y sus relacion con colegas.</i> </p>
+                  <a href="encuesta4.html" class=" enviar btn btn-primary">Comenzar</a>
                   <div id="mensaje4"></div>
 
 
@@ -108,10 +108,10 @@
       var formularioCompletado = localStorage.getItem("formularioCompletado");
 
       if (formularioCompletado === "1") {
-        mensaje.innerHTML = "<p>La encuesta fue enviado.</p>";
+        mensaje.innerHTML = "<p class='card-title2' >La encuesta fue enviada.</p>";
       }
       else {
-        mensaje.innerHTML = "<p>La encuesta no fue enviada.</p>";
+        mensaje.innerHTML = "<p class='card-title2' >La encuesta no fue enviada.</p>";
       }
 
       //codigo para la verificacion del form 2
@@ -120,10 +120,10 @@
       var formularioCompletado2 = localStorage.getItem("formularioCompletado2");
 
       if (formularioCompletado2 === "1") {
-        mensaje2.innerHTML = "<p>La encuesta fue enviado.</p>";
+        mensaje2.innerHTML = "<p class='card-title2' >La encuesta fue enviada.</p>";
       }
       else {
-        mensaje2.innerHTML = "<p>La encuesta no fue enviada.</p>";
+        mensaje2.innerHTML = "<p class='card-title2' >La encuesta no fue enviada.</p>";
       }
 
       
@@ -133,10 +133,10 @@
       var formularioCompletado3 = localStorage.getItem("formularioCompletado3");
 
       if (formularioCompletado3 === "1") {
-        mensaje3.innerHTML = "<p>La encuesta fue enviado.</p>";
+        mensaje3.innerHTML = "<p class='card-title2' >La encuesta fue enviada.</p>";
       }
       else {
-        mensaje3.innerHTML = "<p>La encuesta no fue enviada.</p>";
+        mensaje3.innerHTML = "<p class='card-title2' >La encuesta no fue enviada.</p>";
       }
 
      
@@ -151,10 +151,10 @@
       var formularioCompletado4 = localStorage.getItem("formularioCompletado4");
 
       if (formularioCompletado4 === "1") {
-        mensaje4.innerHTML = "<p>La encuesta fue enviado.</p>";
+        mensaje4.innerHTML = "<p class='card-title2' >La encuesta fue enviada.</p>";
       }
       else {
-        mensaje4.innerHTML = "<p>La encuesta no fue enviada.</p>";
+        mensaje4.innerHTML = "<p class='card-title2' >La encuesta no fue enviada.</p>";
       }
 
 
