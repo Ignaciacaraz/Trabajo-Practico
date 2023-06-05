@@ -1,0 +1,69 @@
+#boton1{
+    position:relative;
+    left: 93%;
+}
+.luna{
+    width: 50px;
+    height: 50px;
+}
+
+.tema{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #555;
+    overflow: hidden;
+    border: 2px solid #fff; /* Borde blanco de 2px */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    justify-content: flex-end;
+}
+
+.oscuro{ 
+    background-color: #1f1f1f; 
+    color: #f1eded; 
+    
+
+}
+
+.oscuro2{
+    color: black;
+}
+
+.titulo{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+
+}
+form{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: aliceblue;
+}
+.form-group{
+    text-align: center;
+}
+
+
+form {
+    padding-top: 2,5%;
+    padding-bottom: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    border: solid black 1px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  #empresa{
+    font-size: 35px;
+    color: #101773;
+  }
+  
